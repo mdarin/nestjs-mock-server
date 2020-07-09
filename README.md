@@ -1,40 +1,24 @@
-<<<<<<< HEAD
 ### Swagger sample
 
 ### Installation
 
-`npm install`
+```bash
+./build.sh
+```
 
 ### Running
 
+```bash
+./run.sh
+```
+
 Once the application is running you can visit [http://localhost:3000/api](http://localhost:3000/api) to see the Swagger interface.
 
-See [here](https://docs.nestjs.com/recipes/swagger#bootstrap) for more information.
-=======
-# apollo-server-example-img
-Apollo server docker image example
+### Stopping
 
-How does it work?
-
+If you've run your server as a daemon you can stop it by following command
 ```bash
-clone ...
-cd path/to/clonned/dir
-./build.sh
-./run.sh
 ./stop.sh
 ```
 
-and see the result on http://localhost:4000/
-
-Write your query or mutation
-
-Query for example:
-```
-{
-  books {
-    title
-    author
-  }
-}
-```
->>>>>>> 1be922ca99904db2ca952de11b328b24ca4de654
+See [here](https://docs.nestjs.com/recipes/swagger#bootstrap) for more information.
