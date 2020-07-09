@@ -1,3 +1,3 @@
 #!/bin/bash
-## build apollo mock server image
-docker build -t apollo-mock-server .
+## build nestjs mock server image
+docker build -t nestjs-mock-server .
